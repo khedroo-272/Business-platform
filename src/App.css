@@ -246,11 +246,9 @@ footer
   text-align: center;
   background-color: #343a40;
   color: #fff;
-  position: sticky;
   bottom: 0;
   width: 100%;
   z-index: 1212122121;
-
 }
 
 .pro-button
@@ -288,17 +286,39 @@ footer
 {
   width: 150px;
 }
+.mini-w-app
+{
+  width: 50px;
+  transform: translate(5px, 3px);
+}
 .w-app-background
+{
+  display: block;
+  width: 60px;
+  height: 60px;
+
+  background-color: #fff;
+  border-radius: 12px;
+  position: fixed;
+  bottom: 70px;
+  left: 30px;
+  z-index: 1212121121;
+}
+
+@media screen and (min-width: 766px)
+{
+  .w-app-background
 {
   display: block;
   width: 170px;
   height: 50px;
   background-color: #fff;
   border-radius: 12px;
-  position: sticky;
+  position: fixed;
   bottom: 70px;
   left: 30px;
   z-index: 1212121121;
+}
 }
 
 .h-100vh

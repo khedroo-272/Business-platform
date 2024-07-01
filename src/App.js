@@ -18,8 +18,8 @@ const App = () => {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
-      <WhatsappChat />
       <Footer />
+      <WhatsappChat />
     </Router>
   );
 };

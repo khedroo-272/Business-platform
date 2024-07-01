@@ -3,8 +3,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import About from '../images/About.jpg'
 import { Card } from "react-bootstrap";
+import WhatsappChat from '../components/WhatsappChat';
 const AboutPage = () => {
   return (
+    <>
     <Row className="w-100 h-100rvh">
         <Col lg={6} className=''>
           <Card className="no-border" style={{ width: '100%'}}>
@@ -22,6 +24,7 @@ const AboutPage = () => {
             </Container>
         </Col>
       </Row>
+    </>
   );
 };
 
