@@ -2,7 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
-import Platform from '../images/Platform.png'
+import Platform from '../images/Platform.webp'
 import "../App.css"; // Import custom CSS
 
 const MyNavbar = () => {
@@ -10,7 +10,7 @@ const MyNavbar = () => {
     <Navbar bg="dark" variant="dark" expand="lg" className="navbar-custom">
       <>
         <Navbar.Brand as={Link} to="/" className="ps-3" >
-        <img src={Platform} alt="logo" className="logo"/>
+        <img src={Platform} alt="business platform logo" className="logo"/>
           Business Platform
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="m-r-3"/>

@@ -1,12 +1,12 @@
 // pages/HomePage.js
 import React from "react";
-import CIPS from "../images/CIPS.jpg";
-import CPIM from "../images/CPIM.jpg";
-import CLTD from "../images/CLTD.jpg";
-import CSCP from "../images/CSCP.jpg";
-import BB from "../images/BB.png";
-import GB from "../images/GB.png";
-import YB from "../images/YB.png";
+import CIPS from "../images/CIPS.webp";
+import CPIM from "../images/CPIM.webp";
+import CLTD from "../images/CLTD.webp";
+import CSCP from "../images/CSCP.webp";
+import BB from "../images/BB.webp";
+import GB from "../images/GB.webp";
+import YB from "../images/YB.webp";
 import Course from "./Course";
 import {Container, Row, Col} from "react-bootstrap";
 const TrendingCourses = () => {
