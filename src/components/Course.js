@@ -1,19 +1,24 @@
 import React from "react";
-import {Card, Button} from "react-bootstrap";
+import {Card} from "react-bootstrap";
 
-function Course ({name, description, image, hours}) {
+function Course ({course, image}) {
     return (
-        <Card className="no-border" style={{ width: '100%' }}>
-        <Card.Img variant="top" src={image} />
+        <Card className="no-border course" style={{ width: '100%' }}>
+          <div className='image-holder'>
+            <Card.Img variant="top" src={image} alt='course image' />
+          </div>
         <Card.Body>
-          <Card.Title className='title'>{name} {description}</Card.Title>
-          <Card.Text>
-          {hours} + Hours
+          <Card.Title className='title'>{course.name} {course.description}</Card.Title>
+          <Card.Text className="d-flex justify-content-between">
+          <h7>Course outline</h7>
+          <span className="hours">{course.hours}</span>
           </Card.Text>
-          <div className='w-100 d-flex justify-content-center'>
-            <Button variant="primary" href="/about" target="_blank" rel="noopener noreferrer" className='centered pro-button'>
-                Learn More
-            </Button>
+          <div className="modules">
+            {
+              course.modules.map((module, index) => (
+                <div  key={index}>{ module }</div>
+              ))
+            }
           </div>
         </Card.Body>
       </Card>

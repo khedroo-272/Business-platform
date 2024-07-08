@@ -30,8 +30,8 @@ const ContactPage = () => {
   }
 
   return (
-    <Container className="mt-5 mx-auto h-100vh custom-margin">
-      <h2 className='text-center'>Contact Us</h2>
+    <Container className="mx-auto h-100vh custom-margin mw-540 px-3">
+      <h2 className='mt-5 text-center'>Contact Us</h2>
       <Formik
         initialValues={{ name: '', email: '', message: '' }}
         validationSchema={validationSchema}
