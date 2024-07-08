@@ -336,7 +336,7 @@ footer {
   font-size: 1rem;
 }
 
-/* @media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .modules
   {
     max-height: 90px;
@@ -350,7 +350,7 @@ footer {
     height: 340px;
     overflow: hidden
   }
-} */
+}
 .image-holder
 {
   height: 171px;
