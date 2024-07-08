@@ -5,7 +5,7 @@ function Course ({course, image}) {
     return (
         <Card className="no-border course" style={{ width: '100%' }}>
           <div className='image-holder'>
-            <Card.Img variant="top" src={image} alt='course image' />
+            <Card.Img variant="top" src={image} alt={course.name + 'course image'} />
           </div>
         <Card.Body>
           <Card.Title className='title'>{course.name} {course.description}</Card.Title>
