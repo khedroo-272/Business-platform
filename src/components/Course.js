@@ -11,7 +11,7 @@ function Course ({course, image}) {
           <Card.Title className='title'>{course.name} {course.description}</Card.Title>
           <Card.Text className="d-flex justify-content-between">
           <h7>Course outline</h7>
-          <span className="hours">{course.hours}</span>
+          {/* <span className="hours">{course.hours}</span> */}
           </Card.Text>
           <div className="modules">
             {
