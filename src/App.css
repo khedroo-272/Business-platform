@@ -38,11 +38,16 @@
 } */
 /* Navbar.css */
 .navbar-custom {
-  background-color: #002f34; /* edX primary color */
+  background-color: #052545 !important; /* edX primary color */
   margin: 0 !important;
   position: sticky;
   top: 0;
   z-index: 1111111;
+}
+
+.blue-bc
+{
+  background-color: #002985;
 }
 
 /* Custom CSS to change navbar toggler color */
@@ -225,7 +230,7 @@ h3 {
 footer {
   padding: 1rem !important;
   text-align: center;
-  background-color: #343a40;
+  background-color: #052545;
   color: #fff;
   bottom: 0;
   width: 100%;

@@ -7,6 +7,7 @@ import CSCP from "../images/CSCP.webp";
 import BB from "../images/BB.webp";
 import GB from "../images/GB.webp";
 import YB from "../images/YB.webp";
+import DA from "../images/DataAnalysis.jpg";
 import Course from "./Course";
 import {Container, Row, Col} from "react-bootstrap";
 const TrendingCourses = () => {
@@ -52,11 +53,31 @@ const TrendingCourses = () => {
     hours: '60+ Hours',
     modules : ['Module 1: Logistics overview and strategy', 'Module 2: Logistics network design','Module 3: Sustainability and reverse logistics','Module 4: Capacity planning and demand management','Module 5: Ordermanagement', 'Module 6: Inventory management', 'Module 7: Warehouse management', 'Module 8: Global logistics and transportation']
   }
+  const data_analysis_course = {
+    name:'Data Analysis Course',
+    description:"With Excel & Power BI" ,
+    hours: '60+ Hours',
+    modules : [`Excel:`,`
+Basics & Lists
+`,`Conditional Formatting`,`
+`,`Functions & Formulas`,`
+`,`VLOOKUP & INDEX/MATCH`,`
+`,`Sorting & Filtering`,`
+`,`Pivot Tables & Charts`,`
+`,`Data Analysis Tools`,`
+`,`And`,`
+`,`Power BI:`,`
+`,`Introduction & Installation`,`
+`,`Data Import & Transformation`,`
+`,`Data Visualization`,`
+`,`Advanced Analytics with DAX`,`
+`,`Publishing & Sharing Reports`]
+  }
 
   return (
     <>
       <Container className="mx-auto p-4 my-5 bordered">
-        <h3 className='text-center'>Trending Courses</h3>
+        <h3 className='text-center'>Training Courses</h3>
         <Row>
           <Col md={6} lg={3}>
             <div className="m-2">
@@ -91,6 +112,11 @@ const TrendingCourses = () => {
           <Col md={6} lg={3}>
             <div className="m-2">
               <Course course={cltd_course} image={CLTD}/>
+            </div>
+          </Col>
+          <Col md={6} lg={3}>
+            <div className="m-2">
+              <Course course={data_analysis_course} image={DA}/>
             </div>
           </Col>
         </Row>
