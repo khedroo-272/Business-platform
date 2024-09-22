@@ -14,7 +14,7 @@ function Partners () {
         <>
             <Container className="mx-auto w-100 mt-5">
                 <h3 className="text-center .playfair-display-regular">Partners In Success</h3>
-                <div className="m-2 d-flex jusitify-content-between flex-wrap">
+                <div className="m-2 d-flex jusitify-content-between">
                     <img src={Toyota} alt="Toyota" className="partner"/>
                     <img src={Raya} alt="Raya" className="partner"/>
                     <img src={Total} alt="Total" className="partner"/>

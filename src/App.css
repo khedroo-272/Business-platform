@@ -195,23 +195,29 @@ h3 {
 } */
 @media screen and (min-width: 360px) {
   .partner {
+    width: 40px;
+    margin: auto !important;
+  }
+}
+@media screen and (min-width: 480px) {
+  .partner {
     width: 50px;
     margin: auto !important;
   }
 }
 @media screen and (min-width: 556px) {
   .partner {
-    width: 80px;
+    width: 60px;
     margin: auto !important;
   }
 }
 @media screen and (min-width: 766px) {
   .partner {
-    width: 110px;
+    width: 89px;
     margin: auto !important;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 992px) {
   .partner {
     width: 110px;
     margin: auto !important;
